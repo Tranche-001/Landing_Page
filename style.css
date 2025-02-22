@@ -84,7 +84,11 @@ ul{
 
 .content-1{
   display: flex;
- 
+  justify-content: center;
+}
+.text {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -92,4 +96,13 @@ ul{
   font-size: 48px;
   font-weight: 900;
   color: #f9faf8;
+}
+
+img {
+  height: 100%;
+  width: 400px;
+}
+
+button{
+  background-color: #3882f6;
 }
