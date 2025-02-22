@@ -64,3 +64,9 @@ ul{
   display: flex;
   gap: 10px;
 }
+
+a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
