@@ -76,3 +76,9 @@ a{
 .content-1{
   display: flex;
 }
+
+.text-h{
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
