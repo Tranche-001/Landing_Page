@@ -48,6 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 .header{
   display: flex;
   justify-content: space-around;
+  background-color: #1f2937;
 }
 
 .logo{
