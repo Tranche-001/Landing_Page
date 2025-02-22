@@ -45,10 +45,15 @@ h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
+
+.content-0{
+  background-color: #1f2937;
+}
+
 .header{
   display: flex;
   justify-content: space-around;
-  background-color: #1f2937;
+ 
   align-items: center;
 }
 
@@ -67,7 +72,7 @@ ul{
   gap: 10px;
 }
 
-a{
+.text-p, a{
   text-decoration: none;
   font-size: 18px;
   color: #e5e7eb;
@@ -75,7 +80,8 @@ a{
 
 .content-1{
   display: flex;
-  background-color: #1f2937;
+ 
+  justify-content: center;
 }
 
 .text-h{
