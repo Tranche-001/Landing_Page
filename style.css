@@ -72,3 +72,7 @@ a{
   font-size: 18px;
   color: #e5e7eb;
 }
+
+.content-1{
+  display: flex;
+}
