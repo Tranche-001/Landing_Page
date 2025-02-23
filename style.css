@@ -85,11 +85,14 @@ ul{
 .content-1{
   display: flex;
   justify-content: center;
+  gap: 50px;
+  padding: 120px;
 }
 .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 400px;
 }
 
 .text-h{
@@ -98,11 +101,20 @@ ul{
   color: #f9faf8;
 }
 
-img {
-  height: 100%;
-  width: 400px;
+.img {
+  height: 300px;
+  width: 700px;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 button{
+  border-radius: 25px;
+  padding: 0 20px;
   background-color: #3882f6;
+
+  flex-shrink: 0;
 }
