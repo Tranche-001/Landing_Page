@@ -14,6 +14,7 @@ body {
   -webkit-font-smoothing: antialiased;
   display: flex;
   flex-direction: column;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* 5. Improve media defaults */
@@ -75,13 +76,6 @@ ul{
   display: flex;
   gap: 10px;
 }
-
-.text-p, a{
-  text-decoration: none;
-  font-size: 18px;
-  color: #e5e7eb;
-}
-
 .content-1{
   display: flex;
   justify-content: center;
@@ -95,6 +89,16 @@ ul{
   width: 400px;
 }
 
+.text-p, a{
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 10px;
+}
+
+
+
+
 .text-h{
   font-size: 48px;
   font-weight: 900;
@@ -104,17 +108,22 @@ ul{
 .img {
   height: 300px;
   width: 700px;
+  display: flex;
+  justify-content: center;
 }
 
 img{
+  background-color: blue;
   max-width: 100%;
   max-height: 100%;
 }
 
 button{
-  border-radius: 25px;
-  padding: 0 20px;
+  border-radius: 15px;
+  padding: 10px 40px;
   background-color: #3882f6;
-
+  border: 0px;
   flex-shrink: 0;
+  color: #f9faf8;
+  font-weight: bold;
 }
