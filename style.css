@@ -125,7 +125,7 @@ img{
   max-height: 100%;
 }
 
-button{
+.content-1 button{
   border-radius: 15px;
   padding: 10px 40px;
   background-color: #3882f6;
@@ -204,4 +204,40 @@ p {
   font-weight: bold;
   font-size: 24px;
 }
+
+/* Footer Section */
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px;
+}
+.call-to-action-space{
+  width: 1200px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 60px 120px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.cta-text1{
+  font-weight: bold;
+  font-size: 24px;
+}
+ .footer button{
+  font-size: 24px;
+  margin-left: auto;
+  padding: 10px 40px;
+  border: 3px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #f9faf8;
+  background-color: #3882f6;
+  flex-shrink: 0;
+  color: #f9faf8;
+  font-weight: bold;
+ }
+
 
