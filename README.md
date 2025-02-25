@@ -1,6 +1,6 @@
 # Landing_Page
 # What the project is:
-## The Project is a Generic Landing Page. It is  practice project for me to work with all flexbox skills learned in the Odin Project Foudation Course
+## The Project is a Generic Landing Page. It is  practice project for me to work with all flexbox skills learned in the Odin Project Foundation Course
 ## Here it is a preview:
 ## https://tranche-001.github.io/Landing_Page/
 
