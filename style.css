@@ -181,14 +181,27 @@ button{
 }
 
 /* Content 3 Section */
-.text-p3{
+.content-3{
   display: flex;
   justify-content: center;
+  background-color: #e5e7eb;
 }
+.content-4{
+  width: 800px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
 p {
   font-size: 36px;
   font-weight: light;
   font-style: italic;
   color: #1f2937;
-  width: 1000px;
 }
+.author{
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 24px;
+}
+
