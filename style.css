@@ -179,3 +179,16 @@ button{
   font-size: 18px;
   color: #6a6a6b;
 }
+
+/* Content 3 Section */
+.text-p3{
+  display: flex;
+  justify-content: center;
+}
+p {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+  width: 1000px;
+}
