@@ -85,7 +85,9 @@ ul{
   padding: 0;
   display: flex;
   gap: 10px;
+ 
 }
+
 .content-1{
   display: flex;
   justify-content: space-between;
