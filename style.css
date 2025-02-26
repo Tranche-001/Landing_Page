@@ -1,3 +1,4 @@
+/* CSS Reset */
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -47,6 +48,8 @@ h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
+
+/*Project Specific CSS */
 .content--1{
   background-color: #1f2937;
   display: flex;
@@ -66,6 +69,7 @@ h1, h2, h3, h4, h5, h6 {
  
   align-items: center;
   width: 1200px;
+  margin-top: 20px;
 }
 
 .logo{
